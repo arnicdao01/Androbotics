@@ -4,7 +4,9 @@
   <title>Androbotics Clark Inc.</title>
 </head>
 <body>
-
+<% flash.each do |key,value| %>
+<p><%= value %></p>
+<% end %>
 <%= yield %>
 
 </body>
