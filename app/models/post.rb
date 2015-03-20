@@ -1,4 +1,4 @@
 class Post < ActiveRecord::Base
-  attr_accessor :name
+  # attr_accessible :name
   belongs_to :category
 end
